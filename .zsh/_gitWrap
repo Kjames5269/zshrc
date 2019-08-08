@@ -1,0 +1,6 @@
+_gitWrap() {
+  service=git
+  declare -f _git >& /dev/null && _git
+}
+
+_gitWrap
